@@ -1,8 +1,6 @@
 import characters.Characters;
 import Extra.*;
-
 import objects.Objects;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -30,7 +28,7 @@ public class Main {
         System.out.println(AirBalloon.IsMade(Silver));
         System.out.println(Air.CooledDown(Shell));
         AirBalloon.setRotation(Rotation.DOWN);
-        System.out.println(AirBalloon.WasFalling());
+        System.out.println(AirBalloon.StartedToFall());
         System.out.println(StockOfBags.CameToTheEnd());
         System.out.println(Falling.WasNotAbleToHold());
 
