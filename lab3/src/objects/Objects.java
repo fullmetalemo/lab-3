@@ -5,7 +5,7 @@ import Extra.Place;
 public class Objects extends AObject {
 
     private Place place;
-    private static String name;
+    private String name;
 
     public Objects(String name, Place place){
         this.name = name;
