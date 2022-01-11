@@ -24,24 +24,4 @@ public class Objects extends AObject {
         return place;
     }
 
-    @Override
-    public String toString(){
-        Place place = getPlace();
-        return "Objects: " +
-                "name = " + name + ", "+
-                "place = " + place.getName();
-    }
-
-    @Override
-    public int hashCode() {
-        return java.util.Objects.hash(name);
-    }
-
-    @Override
-    public boolean equals(Object objects){
-        if (this == objects) return true;
-        if (objects == null || getClass() != objects.getClass()) return false;
-        AObject aObject = (AObject) objects;
-        return java.util.Objects.equals(name, aObject.name);
-    }
 }
