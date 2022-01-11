@@ -1,7 +1,7 @@
 import characters.Characters;
 import Extra.*;
 
-import java.util.Objects;
+import objects.Objects;
 
 public class Main {
 
