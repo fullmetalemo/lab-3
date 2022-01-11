@@ -24,7 +24,7 @@ public class Characters extends ACharacters {
     }
 
     public String Moved(Place place){
-        return (" пересел " + Objects.getName() + ".");
+        return (" пересел " + place.getName() + ".");
     }
 
     public String WasFalling(){
